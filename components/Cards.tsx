@@ -68,7 +68,7 @@ export const Card = ({
         <Text className="text-xs font-rubik text-black-200">{address}</Text>
         <View className="flex flex-row items-center justify-between mt-2">
           <Text className="text-base font-rubik-bold text-primary-300">
-            {price}
+            £{price}
           </Text>
           <Image
             source={icons.heart}
